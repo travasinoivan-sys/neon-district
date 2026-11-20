@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neon District</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js" defer></script>
+  <script src="game.js" defer></script>
+</head>
+<body>
+  <canvas id="game"></canvas>
+
+  <section id="menu" class="panel">
+    <p class="eyebrow">NEON DISTRICT</p>
+    <h1>APERITIVO AL<br />CREPUSCOLO</h1>
+    <button id="start">INIZIA IL TOUR</button>
+    <div class="controls">
+      <span><b>WASD</b> movimento</span>
+      <span><b>SHIFT</b> corsa</span>
+      <span><b>Controller</b> levette</span>
+    </div>
+  </section>
+
+  <div id="hud">
+    <span id="status">CENTRO CITTA</span>
+    <span id="speed">0 KM/H</span>
+  </div>
+</body>
+</html>
